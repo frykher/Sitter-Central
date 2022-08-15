@@ -1,0 +1,65 @@
+<!-- Johns Page -->
+!<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="signin.css">
+
+</head>
+<body>
+ <div class "flex_container">
+    <div id="nav">
+        <div class="nav-item">
+            <a><h2 href="sitters.html">Sitters</h2></a>
+        </div>
+        <div class="nav-item">
+            <a href="learn.html"><h2>Learn</h2></a>
+        </div>
+        <div class="nav-item">
+            <a href="profile.html"><h2>My Profile</h2></a>
+            <div class="nav-item">
+                <a href="profile-edit.html"><h3>Edit</h3></a>
+            </div>
+        </div>
+    </div>
+    <div id = "signin">
+    <div id = "buttonDiv">
+        <button>Create An Account</button>
+        <br>
+        <br>
+        <button>Yes I am a Sitter</button>
+        <br>
+        <br>
+        <button>Yes I am a parent</button>
+    </div>
+
+  <form action="/action_page.php" method="post">
+   
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+          
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    </div>  
+</div>
+ </form>
+
+    
+    
+</body>
+</html>

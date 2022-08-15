@@ -1,0 +1,18 @@
+#content {
+    margin-left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#course-box {
+    display: flex;
+    border: solid;
+}
+
+#lesson-list {
+    display: flex;
+    flex-direction: column;
+    border-right-style: solid;
+}
