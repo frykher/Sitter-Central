@@ -1,0 +1,98 @@
+h1{
+    display: flex;
+justify-content: center;
+border: solid;
+border-width: 15px;
+border-color: white;
+background-color: white;
+
+height: 150px ;
+width: 1200px ;
+
+}
+
+body{
+    background-image: url(https://help4u-blog.s3.amazonaws.com/Perfect-solution-for-babysitting-%EF%BF%BD%EF%BF%BD%EF%BF%BD-Drop-in-sitting-raises-the-bar-in-quality-min.jpg);
+   background-repeat: no-repeat;
+ background-position-y:25px;
+   
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+   body {
+       margin: 0;
+       padding: 0;
+       font-family: 'Poppins', sans-serif;
+   }
+   
+   #nav {
+       width: 15vw;
+       height: 100vh;
+       position: fixed;
+       background-color: #17171E;
+       display: flex;
+       flex-direction: column;
+       color: #B5B5BE;
+   }
+   
+   #nav a {
+       text-decoration: none;
+       color: #B5B5BE;
+   }
+   
+   .nav-item {
+       padding: 10px;
+       display: flex;
+       flex-direction: column;
+       
+   }
+   
+   .nav-item * {
+       margin: 0;
+       font-weight: 400;
+   }
+   
+   #content {
+       margin-left: 15vw;
+       padding: 1rem;
+   }
+
+
+.flex-container1{
+
+display:flex;
+flex-direction: column;
+align-items: flex-end;
+
+}
+
+.flex-container1 > div{
+    font-weight: bold;
+  background-color: #B5B5BE;
+  width: 200px;
+    border: #17171E;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+  .flex-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+.flex-container2 > div {
+    background-color: lightgrey;
+    width: 550px;
+    height: 200px;
+    border: #17171E;
+
+    border-radius:150px;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    margin: 20px;
+}

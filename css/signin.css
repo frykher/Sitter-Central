@@ -11,7 +11,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #04AA6D;
+  background-color:goldenrod;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -27,7 +27,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #800020;
 }
 
 .container {
@@ -48,4 +48,9 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+.flex_container{
+  display: flex;
+  justify-content: center;
 }

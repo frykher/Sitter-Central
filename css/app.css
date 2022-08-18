@@ -1,0 +1,168 @@
+.flex_container3{
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+    background-color:#4DA1A9;
+    padding: 5px;
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .drop-element {
+    color: black;
+    background-color: transparent;
+    font-size: 32px ;
+    
+    }
+    
+    .about-content {
+      display: none;
+      position:absolute;
+      background-color: lightgray;
+      min-width: 100px;
+      padding: 5px;
+    }
+    
+    .about-content a {
+    display:block;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    }
+    
+    .about-content a:hover {
+    background-color:#4DA1A9;
+    
+    } 
+    
+    .dropdown:hover .about-content{
+      display: block;
+      font-size: 16px;
+    }
+    
+    
+    .Profile{
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   
+    }
+
+ #bank-button{
+    display: flex;
+
+
+
+ }
+ .input-container {
+    display: flex;
+   padding: 10px;
+}
+
+
+.adress-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flex-container {
+     display: flex;
+}
+
+.flex-container > div{
+
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .img{
+     display: flex;
+    justify-content: center;
+
+      }
+
+
+      .wrap-collabsible {
+        margin-bottom: 1.2rem 0;
+      }
+      
+      input[type='checkbox'] {
+        display: none;
+      }
+      
+      .lbl-toggle {
+        display: block;
+      
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+      
+        padding: 1rem;
+      
+        color:black;
+        background:#4DA1A9;
+      
+        cursor: pointer;
+      
+        border-radius: 7px;
+        transition: all 0.25s ease-out;
+      }
+      
+      .lbl-toggle:hover {
+        color:grey;
+      }
+      
+      .lbl-toggle::before {
+        content: ' ';
+        display: inline-block;
+      
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid currentColor;
+        vertical-align: middle;
+        margin-right: .7rem;
+        transform: translateY(-2px);
+      
+        transition: transform .2s ease-out;
+      }
+      
+      .toggle:checked + .lbl-toggle::before {
+        transform: rotate(90deg) translateX(-3px);
+      }
+      
+      .collapsible-content {
+        max-height: 0px;
+        transition: max-height .25s ease-in-out;
+      }
+      
+      .toggle:checked + .lbl-toggle + .collapsible-content {
+        max-height: 55vh;
+      }
+      
+      .toggle:checked + .lbl-toggle {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      
+      .collapsible-content .content-inner {
+        background: rgba(66, 158, 250, 0.2);
+        border-bottom: 1px solid rgba(250, 224, 66, .45);
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        padding: .5rem 1rem;
+      }

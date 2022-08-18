@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    <script defer src="js/init-firebase.js"></script>
+    <script src = "js/chat.js"></script>
+</head>
+<body>
+    <!-- Start of nav bar -->
+    <div id="nav">
+        <div class="nav-item">
+        <a href="index.html">
+            <h2>Home</h2>
+        </a>
+        </div>
+        <div class="nav-item">
+            <a href="sitters.html"><h2>Top-Sitters</h2></a>
+        </div>
+        <div class="nav-item">
+            <a href="learn.html"><h2>Learn</h2></a>
+        </div>
+        <div class="nav-item">
+            <a href="signin.html"><h2>Sign In</h2></a>
+        </div>
+        <div class="nav-item">
+            <a href="profile.html"><h2>My Profile</h2></a>
+            <div class="nav-item">
+                <a href="profile-edit.html"><h3>Edit</h3></a>
+            </div>
+        </div>
+    <div class="nav-item">
+        <a href="app.html">
+            <h2>Application</h2>
+        </a>
+    </div>
+    <div class="nav-item end">
+        <a href="index.html"><h2>Sign Out</h2></a>
+    </div>
+    </div>
+    <!-- end of nav bar -->
+    <div class = "body" id="content">
+
+    <div class="flex_container">
+        <div id="chatbox-container">
+            <h1 id="title">Sitter Central Chat</h1>      
+    
+            <!-- @NOTE this is where we'll append messages -->
+            <div id="all-messages">
+                <!-- @NOTE sample message -->
+                <!-- <div class="single-message">
+                    <p class="single-message-username">andymina:</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Doloremque laboriosam dignissimos molestias ad illum odio
+                        dolor beatae dolore! Possimus laborum culpa debitis at
+                        obcaecati sit assumenda, placeat delectus reiciendis
+                        accusamus!
+                    </p>
+                </div> -->
+                <p>Caleb: Welcome to Sitter Central Nick! How can I help You?</p>
+                <p>Nick: Can You watch my son for me while I go on vacation?</p>
+                <p>Caleb: Sure, just click Sign In on the Nav Bar, hit I am a parent/petowner, and apply for an appointment. Use this to keep in touch with me.</p>
+                <p>Nick: Thanks, will do!</p>
+            </div>
+    
+            <div id="typing-container">
+                <form>
+                    <!-- @NOTE this input has an id #username -->
+                    <div class="input-container">
+                        <label>Name:</label>
+                        <input
+                            type="text"
+                            id="username"
+                        />
+                    </div>
+                    
+                    <!-- @NOTE this input has an id #message -->
+                    <div class="input-container">
+                        <label>Message：</label>
+                        <input
+                            type="text"
+                            id="message"
+                        />
+                    </div>
+                </form>
+    
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    
+    </div>
+   </div>
+</body>
+</html>
