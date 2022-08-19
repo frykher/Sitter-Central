@@ -73,3 +73,23 @@
     width: 100%;
     height: 100%;
   }
+.action-btn {
+    height: 50px;
+    width: 200px;
+    background-color: #8b0f30;
+    border-color: #8b0f30;
+    outline: inherit;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-style: solid;
+    margin: 20px;
+}
+
+.action-btn:hover {
+    background-color: white;
+    color: black;
+}

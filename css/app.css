@@ -166,3 +166,68 @@ nav {
         border-bottom-right-radius: 7px;
         padding: .5rem 1rem;
       }
+
+
+      .pay-now-btn {
+        cursor: pointer;
+        color: #fff;
+        height: 50px;
+        width: 250px;
+        border: none;
+        margin: 5px 30px;
+        margin-left: 15vw;
+        background-color:white;
+        position: relative;
+      }
+        
+      .card-details {
+        background: grey;
+        color: rgb(225, 223, 233);
+        margin: 10px 30px;
+        padding: 5px;
+      }
+        
+      .card-details p {
+        font-size: 15px;
+      }
+        
+      .card-details label {
+        font-size: 15px;
+        line-height: 35px;
+      }
+        
+      .submit-now-btn {
+        cursor: pointer;
+        color: #fff;
+        height: 30px;
+        width: 240px;
+        border: none;
+        border-radius: 20px;
+        margin: 5px 30px;
+        background-color:#800020;
+      }
+
+      .payment-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+
+
+      }
+
+      .update-adress-container{
+
+        display: flex table-column;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        
+  
+      }
+
+      #update-adress{
+        background-color: #800020;
+        border-radius: 20px;
+        color: white;
+    }
+  

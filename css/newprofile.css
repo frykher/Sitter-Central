@@ -1,0 +1,64 @@
+#content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#brief {
+    width: 150px;
+    text-align: center;
+}
+
+#brief h2 {
+    font-weight: 400;
+}
+
+.pfp {
+    width: 150px;
+    height: auto;
+    border-radius: 75%;
+    border: 1px solid #1f1a32;
+    padding: 7px;
+    background: #292343;
+}
+
+#profile {
+    margin-left: 100px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.field p {
+    margin-top: 0;
+}
+
+.field h3 {
+    margin-bottom: 0;
+}
+.action-btn {
+    height: 50px;
+    width: 200px;
+    background-color: #8b0f30;
+    border-color: #8b0f30;
+    outline: inherit;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-style: solid;
+    margin: 20px;
+}
+
+.action-btn:hover {
+    background-color: white;
+    color: black;
+}

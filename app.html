@@ -68,26 +68,57 @@
         <div class="img">
         <img src="https://img.favpng.com/8/0/5/computer-icons-user-profile-avatar-png-favpng-6jJk1WU2YkTBLjFs4ZwueE8Ub.jpg" alt="Avatar" class="avatar">
         </div>
+        <div>
+            <div class = "update-container">
+                <div class ="update-adress-container">
+                    <p>ADRESS INFO</p>
+                <a href="app2.html" target="_blank"> <button id ="update-adress">Update</button></a>
+                </div>
+                </div>
+
+
+
     <div class="bank">
         <p>Payment INFO</p>
-        <div class="input-container">
-            <label>Account Number:</label>
-            <input
-                type="text"
-                id="username"
-            />
-    </div>
-    <div>
-            <div class="input-container">
-                <label> Routing Number:</label>
+
+        <div class =" input-container">
+            <div class="card-details">
+              <p>PAY USING CREDIT OR DEBIT CARD</p>
+            
+              <div class="payment-container">
+                <label> Card Number :</label>
                 <input
-                    type="text"
-                    id="message"
-                />
-    <button id ="bank-button">Save</button>
+                  type="text"
+                  class="card-number-field"
+                  placeholder="###-###-###"/>
+              </div>
+              <br />
+              <div class="payment-container">
+                <label> Expiry Date :</label>
+                <input type="text" class="date-number-field" 
+                       placeholder="DD-MM-YY" />
+              </div>
+            
+              <div class="payment-container">
+                <label> CVV number :</label>
+                <input type="text" class="cvv-number-field" 
+                       placeholder="xxx" />
+              </div>
+              <div class="payment-container">
+                <label> Card Holder name : </label>
+                <input
+                  type="text"
+                  class="card-name-field"
+                  placeholder="Enter your Name"/>
+              </div>
+              <button type="submit" 
+                      class="submit-now-btn">
+                save
+              </button>
+             
+            </div>
+            </div>
+            </div>
         </div>
-        <p>ADDRESS INFO</p>
-        <a href="app2.html" target="_blank"> <button id ="update-adress">Update</button></a>
- </div>
 </body> 
 </html>
